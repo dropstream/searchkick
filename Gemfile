@@ -4,10 +4,10 @@ source "https://rubygems.org"
 gemspec
 
 gem "sqlite3", "~> 1.3.0"
-gem "activerecord"
+gem "activerecord", '4.2.8'
 gem "gemoji-parser"
 gem "typhoeus"
-gem "activejob"
+gem "activejob", '4.2.8'
 gem "redis"
 gem "connection_pool"
 
